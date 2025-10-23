@@ -29,7 +29,7 @@ Make sure all `.c` and `.h` files are in the same folder, then open a terminal i
 ```bash
 gcc -O2 -std=c11 -Wall -Wextra -o checkers main.c game.c ui.c save.c bitboard.c
 .\checkers
-
+```
 
 
 # Game Rules – BitBoard Checkers
