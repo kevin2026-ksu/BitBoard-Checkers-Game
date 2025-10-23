@@ -52,3 +52,15 @@ Lowercase = normal piece
 Uppercase = king
 
 
+### In Game Commands
+
+| Action | Format | Example | Description |
+|--------|---------|----------|--------------|
+| **Normal Move** | `from@to` | `b3@a4` | Move one diagonal square |
+| **Capture Move** | `fromxto` | `c3xe5` | Jump over opponent’s piece into an empty square |
+| **Multi-Jump** | same format | `e5xg7` | Continue capturing until no more jumps are available |
+| **Save Game** | `save filename` | `save demo.chk` | Save the current game state |
+| **Load Game** | `load filename` | `load demo.chk` | Load a saved game |
+| **Quit Game** | `quit` or `exit` | `quit` | Ends the game immediately |
+
+
